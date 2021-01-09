@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.SupportingMultipleScreens" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">@color/black</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -15,8 +15,29 @@
     </style>
 
 
-    <style name="TextMainTheme" parent="Widget.AppCompat.TextView">
-        <item name="android:textSize">30sp</item>
+    <style name="TextActionTheme" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textColor">#3F51B5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextMainThemeSmall" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:color">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextMainThemeMeduim" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:color">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextMainThemeLarge" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">25sp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
         <item name="android:color">#000000</item>
         <item name="android:textStyle">bold</item>
