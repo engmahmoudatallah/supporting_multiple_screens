@@ -22,6 +22,20 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="TextActionThemeLarge" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textColor">#3F51B5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextActionThemeXLarge" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textColor">#3F51B5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="TextMainThemeSmall" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">15sp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
@@ -38,6 +52,20 @@
 
     <style name="TextMainThemeLarge" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">25sp</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:color">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextMainThemeXLarge" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:color">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextMainThemeXXLarge" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">35sp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
         <item name="android:color">#000000</item>
         <item name="android:textStyle">bold</item>
