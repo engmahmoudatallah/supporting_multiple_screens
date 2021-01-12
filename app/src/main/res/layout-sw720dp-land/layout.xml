@@ -65,32 +65,25 @@
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
+            style="@style/editTextEmailTheme"
             android:layout_width="413dp"
             android:layout_height="65dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="24dp"
-            android:background="@drawable/edit_text_shape"
-            android:ems="10"
-            android:hint="Email"
-            android:importantForAutofill="auto"
-            android:inputType="textEmailAddress"
             android:padding="10dp"
-            android:theme="@style/TextMainThemeLarge"
+            android:textSize="30sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
+            style="@style/editTextPasswordTheme"
             android:layout_width="400dp"
             android:layout_height="65dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="32dp"
-            android:background="@drawable/edit_text_shape"
-            android:ems="10"
-            android:hint="Password"
-            android:inputType="textPassword"
             android:padding="10dp"
-            android:theme="@style/TextMainThemeLarge"
+            android:textSize="30sp"
             app:layout_constraintEnd_toStartOf="@+id/guideline5"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -100,8 +93,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="do you forget password?"
+            android:text="@string/forgetPassword"
             android:theme="@style/TextActionThemeLarge"
+            android:textSize="25sp"
             app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
 

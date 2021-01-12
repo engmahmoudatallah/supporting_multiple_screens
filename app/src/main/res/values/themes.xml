@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.SupportingMultipleScreens" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.SupportingMultipleScreens" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/black</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -12,6 +12,34 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+    </style>
+
+
+    <style name="homeBackground">
+        <item name="backgroundColor">#F3F2F2</item>
+    </style>
+
+    <style name="editTextEmailTheme" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:importantForAutofill" tools:targetApi="o">no</item>
+        <item name="android:ems">10</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/edit_text_shape</item>
+        <item name="android:hint">Email</item>
+    </style>
+
+
+    <style name="editTextPasswordTheme" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:importantForAutofill" tools:targetApi="o">no</item>
+        <item name="android:ems">10</item>
+        <item name="android:background">@drawable/edit_text_shape</item>
+        <item name="android:hint">Password</item>
     </style>
 
 
@@ -39,35 +67,35 @@
     <style name="TextMainThemeSmall" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">15sp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
-        <item name="android:color">#000000</item>
+        <item name="android:textColor">#000000</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TextMainThemeMeduim" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">20sp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
-        <item name="android:color">#000000</item>
+        <item name="android:textColor">#000000</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TextMainThemeLarge" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">25sp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
-        <item name="android:color">#000000</item>
+        <item name="android:textColor">#000000</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TextMainThemeXLarge" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">30sp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
-        <item name="android:color">#000000</item>
+        <item name="android:textColor">#000000</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TextMainThemeXXLarge" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">35sp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
-        <item name="android:color">#000000</item>
+        <item name="android:textColor">#000000</item>
         <item name="android:textStyle">bold</item>
     </style>
 </resources>
