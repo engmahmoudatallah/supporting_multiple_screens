@@ -1,3 +1,3 @@
 # supporting_multiple_screens
-![GitHub Logo](C:\Users\mahmoud\OneDrive\Deskto\main.png)
+![GitHub Logo](https://github.com/engmahmoudatallah/supporting_multiple_screens/blob/master/main.PNG)
 
