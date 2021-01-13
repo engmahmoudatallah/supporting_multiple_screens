@@ -1,6 +1,5 @@
 # supporting multiple screens project
-## this project for android sudio to take example
-how to make design supporting mutiple screen for ( phone , tablet 7 inch , tablet 10 inch) portrait and landscape mode
+## this project for android sudio to take example how to make design supporting mutiple screen for ( phone , tablet 7 inch , tablet 10 inch) portrait and landscape mode
 
 ## phone portrait mode
 
